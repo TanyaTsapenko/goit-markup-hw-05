@@ -27,10 +27,19 @@
 
 
 
+body{
+    padding-top: 80px;
+}
 
 
 .header{
-    background-color:var(--white-text) ;}
+    background-color:var(--white-text) ;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    
+}
 
 .font{
     font-family:  'Roboto', sans-serif; 
