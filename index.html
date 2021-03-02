@@ -62,8 +62,9 @@ rel = "stylesheet"/>
 <div class="container">
             <h1 class="titlemain">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
             
-            <button type="button" class="bottons_hero">Заказать услугу</button>
+            <button data-modal-open type="button" class="bottons_hero"> Заказать услугу</button>
         </div>
+        
         </section>
     
     <!--Особенности-->
@@ -114,7 +115,8 @@ rel = "stylesheet"/>
 <div class="container block">
         <h2 class="tittleimg">Чем мы занимаемся</h2>
         <ul class="workphotos">
-            <li> <img src="./IMG/img.jpg" alt="мужчина печатает на клавитатуре" width="370" height="294" /></li>
+            <li> <img src="./IMG/img.jpg" alt="мужчина печатает на клавитатуре" width="370" height="294" />
+            </li>
             <li> <img src="./IMG/img222.jpg" alt="девушка за ноутбуком держит в руке телефон" width="370" height="294" /></li>
             <li> <img src="./IMG/img333.jpg" alt="девушка держит в руке планшет с изображением цветовой гаммы" width="370" height="294" /></li>
         </ul></div>
@@ -375,5 +377,23 @@ rel = "stylesheet"/>
 </div>
 
 </footer>
+<div class="backdrop is-hidden" data-modal>
+
+    <div class="modal">
+        
+        <button class="modal-close"data-modal-close >
+            <svg class="close" width="11" height="11">
+                <use href="./IMG/symbol-defs.svg#icon-Vector">
+
+                </use>
+            </svg>
+        </button>
+    </div>
+
+         </div>
+    
+
+
+<script src="./Js/modal.js"></script>
 </body>
 </html>
