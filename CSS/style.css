@@ -592,6 +592,7 @@ a.menu-link{
     line-height: 30px;
     letter-spacing: 0.06em; 
     background-color: var(--blue-text);
+    cursor: pointer;
 }
 
 
@@ -621,10 +622,12 @@ a.menu-link{
 }
 .item:hover .box-overlay{
     transform: translateY(0);
+    cursor: pointer;
 }
 
 .item:focus .box-overlay{
     transform: translateY(0);
+
 }
 
 a{text-decoration: none;}
