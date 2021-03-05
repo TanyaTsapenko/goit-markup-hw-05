@@ -629,6 +629,9 @@ a.menu-link{
 
 a{text-decoration: none;}
 
+.box-overlay p{
+    margin: 0px;
+}
 
 
 
