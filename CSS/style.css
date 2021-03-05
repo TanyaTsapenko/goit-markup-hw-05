@@ -619,7 +619,11 @@ a.menu-link{
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.box-portfolio:hover .box-overlay{
+.item:hover .box-overlay{
+    transform: translateY(0);
+}
+
+.item:focus .box-overlay{
     transform: translateY(0);
 }
 
