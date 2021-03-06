@@ -136,6 +136,7 @@ a.menu-link{
 
 .menu-link{
     position: relative;
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
    .menu-link:hover, .menu-link:focus, .menu-link:active{color:var(--blue-text) ;}
@@ -150,8 +151,10 @@ a.menu-link{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
+    padding: 0px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .email:hover {color:var(--blue-text) ;}
 .email:focus {color:var(--blue-text) ;}
@@ -175,6 +178,7 @@ a.menu-link{
     bottom: 0;
    opacity: 0;
    transition: opacity 250ms var(--timing-function);
+   
 
 }
 .menu-link:hover::after{
@@ -254,6 +258,7 @@ a.menu-link{
     width: 170px;
     margin: 0px 15px;
     justify-content: center;
+    
 }
 .clients-list a:hover{
     color: var(--blue-text);
@@ -274,9 +279,11 @@ a.menu-link{
     width: 100%;
     align-items: center;
     justify-content: center;
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-list svg{
     fill: currentColor;
+    
 }
 .container-icon{
     display: flex;
@@ -361,6 +368,7 @@ a.menu-link{
 
    justify-content: center;
    align-items: center;
+   transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
    
 
  
@@ -393,6 +401,7 @@ a.menu-link{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .social-link:hover{
@@ -704,6 +713,7 @@ background-color: var( --white-text);
 
     .item{
         border: 1px solid var(--border);
+        
     }
     .work{
         margin: 0px;
@@ -834,12 +844,14 @@ footer{
     justify-content: center;
     margin: 0px;
     padding-left: 0px;
+    
 
 }
     .btns-list .btn{
         border-radius: 4px;
         border: none;
      padding: 6px 22px;
+     transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .buttonss{
         margin-right: 8px;
@@ -887,6 +899,7 @@ margin-bottom: 0px;
     width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -923,6 +936,7 @@ margin-bottom: 0px;
         line-height: 26px;
         letter-spacing: 0.03em; 
         align-items: center; 
+        
     }
     .btn:hover, .btn:focus {background-color:var(--blue-text) ;
         color:var(--white-text);}
