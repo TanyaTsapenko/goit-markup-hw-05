@@ -219,6 +219,7 @@ a.menu-link{
     width: 170px;
     margin: 0px 15px;
     justify-content: center;
+    
 }
 .clients-list a:hover{
     color: var(--blue-text);
@@ -237,6 +238,7 @@ a.menu-link{
     width: 100%;
     align-items: center;
     justify-content: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-list svg{
     fill: currentColor; 
@@ -245,6 +247,7 @@ a.menu-link{
     display: flex;
     align-items: baseline;
 }
+
 
 /*Иконки для футера*/
 
@@ -307,8 +310,7 @@ a.menu-link{
    justify-content: center;
    align-items: center;
    border-radius: 50%;
-   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link-comand:hover{
     fill: var(--white-text);
@@ -708,7 +710,7 @@ footer{
     border-radius: 4px;
     border: none;
     padding: 6px 22px;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .buttonss{
     margin-right: 8px;
